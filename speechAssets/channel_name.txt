@@ -1,0 +1,6 @@
+light three
+light 2
+Channel 3
+Channel 2
+Light 1
+channel 1

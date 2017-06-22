@@ -1,0 +1,91 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "OffIntent",
+      "samples": [
+        "turn off {channel}"
+      ],
+      "slots": [
+        {
+          "name": "channel",
+          "type": "channel_name",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "OnIntent",
+      "samples": [
+        "turn on {channel}"
+      ],
+      "slots": [
+        {
+          "name": "channel",
+          "type": "channel_name",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "channel_name",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "channel 1",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Light 1",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Channel 2",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Channel 3",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "light 2",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "light three",
+            "synonyms": []
+          }
+        }
+      ]
+    }
+  ]
+}
